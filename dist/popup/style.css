@@ -1,0 +1,64 @@
+body {
+  overflow-x: hidden;
+  width: 250px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+    min-width: 250px;
+  }
+}
+
+h1, p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+label {
+  font-size: 12px;
+  color: #333333;
+  font-weight: bold;
+  display: block;
+}
+
+.break {
+  margin: 5px 0;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+input[type="number"] {
+  background-color: #fefefe;
+  border: 1px solid #cacaca;
+  padding: 5px 10px;
+  width: 100%
+}
+
+textarea {
+  background-color: #fefefe;
+  border: 1px solid #cacaca;
+  padding: 5px 10px;
+  height: 150px;
+  font-size: 12px;
+  resize: vertical;
+}
+
+button {
+  background-color: #0598ed;
+  color: #fefefe;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: none;
+}

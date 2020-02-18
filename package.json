@@ -1,0 +1,26 @@
+{
+  "name": "webpack-webextension",
+  "version": "2.5.0",
+  "description": "A minimal example of how to use npm modules from within a WebExtension.",
+  "scripts": {
+    "build": "webpack"
+  },
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "glob": "^7.1.6",
+    "prettier": "^1.19.1",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "@bifravst/random-words": "^4.0.0",
+    "badwords-list": "^1.0.0",
+    "nouns": "^1.0.1"
+  }
+}

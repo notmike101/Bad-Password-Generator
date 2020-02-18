@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="panel">
+    <h1>Bad Password Generator</h1>
+    <p>Optimal Security For Trolls</p>
+    <div class="break"></div>
+    <label>Good Words</label>
+    <input type="number" id="goodWordCount" value="5" min="0" />
+    <div class="break"></div>
+    <label>Bad Words</label>
+    <input type="number" id="badWordCount" value="3" min="0" />
+    <div class="break"></div>
+    <textarea
+      id="generatedWord"
+      placeholder="Click the generate button to create very secure passwords"
+      readonly="readonly"
+    ></textarea>
+    <div class="break"></div>
+    <div class="checkbox-group">
+      <input type="checkbox" id="insult" />
+      <label for="insult">Make an insult</label>
+    </div>
+    <div class="break"></div>
+    <button class="generateButton">Generate</button>
+    <script src="build.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Bad Password Generator",
+  "version": "1.2.0",
+  "description": "Generates secure passwords using bad words",
+  "icons": {
+    "32": "icons/lock-icon-square.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/lock-icon-square.png",
+    "default_title": "Bad Password Generator",
+    "default_popup": "popup/generator.html",
+    "browser_style": true
+  }
+}
