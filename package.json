@@ -3,12 +3,14 @@
   "version": "2.5.0",
   "description": "A minimal example of how to use npm modules from within a WebExtension.",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "node zip.js"
   },
   "license": "MPL-2.0",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
+    "archiver": "^4.0.1",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.2",
     "eslint": "^7.1.0",
